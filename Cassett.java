@@ -22,6 +22,8 @@ public class Cassett {
 
     }
 
-    public String stopEject(){}
+    public String stopEject(){
+        
+    }
 
 }

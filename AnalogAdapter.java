@@ -1,4 +1,4 @@
-public class AnalogAdapter {
+public class AnalogAdapter implements AnalogAlbum{
     private DigitalAlbum album;
 
     public AnalogAdapter(DigitalAlbum album){
