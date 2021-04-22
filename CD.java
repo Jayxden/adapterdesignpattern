@@ -1,3 +1,5 @@
-public class CD  {
+
+public class CD implements DigitalAlbum {
+
     
 }
