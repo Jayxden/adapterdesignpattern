@@ -1,3 +1,7 @@
+/**
+ * Casset and AnalogAdapter Interface.
+ * @author Jayden Allen
+ */
 public interface AnalogAlbum {
     public String play();
     public String rewind();

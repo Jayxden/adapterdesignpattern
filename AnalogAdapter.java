@@ -1,3 +1,7 @@
+/**
+ * AnalogAdapter class that implements AnalogAlbum
+ * @author Jayden Allen
+ */
 public class AnalogAdapter implements AnalogAlbum{
 
     private DigitalAlbum album;

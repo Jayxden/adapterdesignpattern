@@ -1,3 +1,8 @@
+/**
+ * CD interface.
+ * @author Jayden Allen
+ */
+
 public interface DigitalAlbum {
     public String playFromBeginning();
     public String playSong(int num);
