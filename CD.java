@@ -23,6 +23,9 @@ public class CD implements DigitalAlbum {
             currentIndex = num;
             return "Playing "+num+": "+songs.get(num-1);
         }
+        else{
+            return "Invalid index";
+        }
     }
 
     public String prevSong(){
@@ -53,6 +56,12 @@ public class CD implements DigitalAlbum {
     }
 
     public String pause(){
-        return "Pausing..."
+        return "Pausing...";
+    }
+
+    @Override
+    public String stop() {
+        // TODO Auto-generated method stub
+        return "Stopping...";
     }
 }

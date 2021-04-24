@@ -1,12 +1,15 @@
 import java.util.ArrayList;
 
-import javax.lang.model.util.ElementScanner6;
 
-public class Cassett {
+
+public class Cassett implements AnalogAlbum{
 
     private ArrayList<String> songs;
     private int currentIndex;
-    public Casset(String song1, String song2, String song3, String song4, String song5){
+
+    
+
+    public  Cassett(String song1, String song2, String song3, String song4, String song5){
         songs = new ArrayList<String>();
         songs.add(song1);
         songs.add(song2);
@@ -31,7 +34,7 @@ public class Cassett {
             return "Fully Rewound";
         else {
             currentIndex--;
-            return "Rewinding to song";
+            return "Rewinding to song "+(currentIndex);
 
         }
         }
@@ -41,7 +44,7 @@ public class Cassett {
             return "Forwarded to the end of the cassett";
         }else if(currentIndex < 5){
             currentIndex++;
-            return "Forwarding to song";
+            return "Forwarding to song "+(currentIndex+1);
         }else{
             return "At the end of the cassett you need to rewind";
         }
